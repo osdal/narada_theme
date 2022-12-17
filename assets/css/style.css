@@ -1,0 +1,883 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-BlackItalic.woff2") format("woff2"), url("../fonts/Roboto-BlackItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/Roboto-BoldItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Italic.woff2") format("woff2"), url("../fonts/Roboto-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/Roboto-LightItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-ThinItalic.woff2") format("woff2"), url("../fonts/Roboto-ThinItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Bold.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-ExtraLight.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Light.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Medium.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-SemiBold.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: social_icons;
+  font-display: swap;
+  src: url("../fonts/social_icons.woff2") format("woff2"), url("../fonts/social_icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: narada;
+  font-display: swap;
+  src: url("../fonts/narada.woff2") format("woff2"), url("../fonts/narada.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BodonBd;
+  font-display: swap;
+  src: url("../fonts/BodonBd.woff2") format("woff2"), url("../fonts/BodonBd.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BodonBI;
+  font-display: swap;
+  src: url("../fonts/BodonBI.woff2") format("woff2"), url("../fonts/BodonBI.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-BlackItalic.woff2") format("woff2"), url("../fonts/Roboto-BlackItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/Roboto-BoldItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Italic.woff2") format("woff2"), url("../fonts/Roboto-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/Roboto-LightItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-ThinItalic.woff2") format("woff2"), url("../fonts/Roboto-ThinItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Bold.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-ExtraLight.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Light.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Medium.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-Regular.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YanoneKaffeesatz;
+  font-display: swap;
+  src: url("../fonts/YanoneKaffeesatz-SemiBold.woff2") format("woff2"), url("../fonts/YanoneKaffeesatz-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: social_icons;
+  font-display: swap;
+  src: url("../fonts/social_icons.woff2") format("woff2"), url("../fonts/social_icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: narada;
+  font-display: swap;
+  src: url("../fonts/narada.woff2") format("woff2"), url("../fonts/narada.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BodonBd;
+  font-display: swap;
+  src: url("../fonts/BodonBd.woff2") format("woff2"), url("../fonts/BodonBd.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  font-display: swap;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BodonBI;
+  font-display: swap;
+  src: url("../fonts/BodonBI.woff2") format("woff2"), url("../fonts/BodonBI.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+[class*=_icon-]:before {
+  font-family: "narada";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class*=_icon-]:before {
+  display: block;
+}
+
+._icon-telegram_black:before {
+  content: "\e90a";
+}
+
+._icon-viber:before {
+  content: "\e90b";
+}
+
+._icon-discord:before {
+  content: "\e90c";
+}
+
+._icon-github:before {
+  content: "\e90d";
+}
+
+._icon-vk-1:before {
+  content: "\e90e";
+}
+
+._icon-youtube:before {
+  content: "\e90f";
+}
+
+._icon-skype-1:before {
+  content: "\e910";
+}
+
+._icon-telegram-1:before {
+  content: "\e911";
+}
+
+._icon-facebook-messenger:before {
+  content: "\e912";
+}
+
+._icon-linkedin-in:before {
+  content: "\e913";
+}
+
+._icon-linkedin-1:before {
+  content: "\e914";
+}
+
+._icon-facebook-1:before {
+  content: "\e915";
+}
+
+._icon-square-whatsapp:before {
+  content: "\e916";
+}
+
+._icon-whatsapp-1:before {
+  content: "\e917";
+}
+
+._icon-tiktok:before {
+  content: "\e918";
+}
+
+._icon-twitter-1:before {
+  content: "\e919";
+}
+
+._icon-instagram-1:before {
+  content: "\e91a";
+}
+
+._icon-facebook-f:before {
+  content: "\e91b";
+}
+
+._icon-development:before {
+  content: "\e900";
+}
+
+._icon-file:before {
+  content: "\e901";
+}
+
+._icon-contact:before {
+  content: "\e902";
+}
+
+._icon-charity:before {
+  content: "\e903";
+}
+
+._icon-people:before {
+  content: "\e904";
+}
+
+._icon-projects:before {
+  content: "\e905";
+}
+
+._icon-gallery-1:before {
+  content: "\e906";
+}
+
+._icon-report-1:before {
+  content: "\e907";
+}
+
+._icon-testimonial-1:before {
+  content: "\e908";
+}
+
+._icon-writing-1:before {
+  content: "\e909";
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  color: #726d65;
+  line-height: 1;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 0.875rem;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+  font-family: "Yanone Kaffeesatz";
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.lock body {
+  overflow: hidden;
+  -ms-touch-action: none;
+      touch-action: none;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+}
+
+.no-webp .wrapper{
+  background-image: url("../img/Total_background.png"); }
+
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@supports (overflow: clip) {
+  .wrapper {
+    overflow: clip;
+  }
+}
+
+.wrapper > main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.wrapper > * {
+  min-width: 0;
+}
+
+/*
+(i) Стили будут применяться ко 
+всем классам содержащим *__container
+Например header__container, main__container и т.д.
+Снипет (HTML): cnt
+*/
+
+[class*=-ibg] {
+  position: relative;
+}
+
+[class*=-ibg] img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+[class*=-ibg_contain] img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 130px;
+  width: 100%;
+  background: -o-radial-gradient(50% 50%, 50% 50%, #703201 44.27%, rgba(154, 106, 60, 0.97) 97.4%);
+  background: radial-gradient(50% 50% at 50% 50%, #703201 44.27%, rgba(154, 106, 60, 0.97) 97.4%);
+}
+
+.site-name-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-name-block__site-name {
+  font-family: "BodonBd";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 82px;
+  text-align: center;
+  color: #eddd25;
+  -webkit-text-stroke: 2px #1972c2;
+  letter-spacing: 10px;
+}
+
+.site-name-block__site-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: #1972c2;
+  text-shadow: 1px 1px 1px #eddd25;
+}
+
+/*
+.icon-menu {
+	display: none;
+	@media (max-width: $mobile) {
+		display: block;
+		position: relative;
+		width: rem(30);
+		height: rem(18);
+		z-index: 5;
+		@media (any-hover: none) {
+			cursor: default;
+		}
+		span,
+		&::before,
+		&::after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			right: 0;
+			position: absolute;
+			width: 100%;
+			height: rem(2);
+			background-color: #000;
+		}
+		&::before {
+			top: 0;
+		}
+		&::after {
+			bottom: 0;
+		}
+		span {
+			top: calc(50% - rem(1));
+		}
+		.menu-open & {
+			span {
+				width: 0;
+			}
+			&::before,
+			&::after {
+			}
+			&::before {
+				top: calc(50% - rem(1));
+				transform: rotate(-45deg);
+			}
+			&::after {
+				bottom: calc(50% - rem(1));
+				transform: rotate(45deg);
+			}
+		}
+	}
+}
+*/
+
+.footer__container {
+  background: #902516;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__menu li {
+  font-family: "Yanone Kaffeesatz";
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+}
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.social-icons-block {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 9.6875rem;
+  margin-bottom: 30px;
+}
+
+.social-icons-block a {
+  font-size: 40px;
+  color: #270006;
+}
+
+.main-menu {
+  color: #270006;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0.625rem;
+  width: 80%;
+}
+
+.main-menu__block {
+  background: #f8f5e6;
+  border-radius: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(20% - 2rem);
+          flex: 1 1 calc(20% - 2rem);
+  height: 150px;
+  padding: 20px;
+}
+
+.main-menu a {
+  color: #902516;
+  font-size: 30px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.main-menu a::before {
+  font-size: 50px;
+  color: #270006;
+}
+
+.main-menu p {
+  color: #2c2824;
+  font-size: 22px;
+}
+
+@media (min-width: 120em) {
+  [class*=__container] {
+    padding-left: 0.9375rem;
+  }
+
+  [class*=__container] {
+    padding-right: 0.9375rem;
+  }
+}
+
+@media (max-width: 20em) {
+  [class*=__container] {
+    padding-left: 0.9375rem;
+  }
+
+  [class*=__container] {
+    padding-right: 0.9375rem;
+  }
+}
+
+@media (min-width: 20em) and (max-width: 120em) {
+@supports (padding-left: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem )) {
+    [class*=__container] {
+      padding-left: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem );
+    }
+}
+
+@supports not (padding-left: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem )) {
+    [class*=__container] {
+      padding-left: calc(0.9375rem + 0 * (100vw - 20rem) / 100);
+    }
+}
+
+@supports (padding-right: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem )) {
+    [class*=__container] {
+      padding-right: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem );
+    }
+}
+
+@supports not (padding-right: clamp( 0.9375rem , 0.9375rem  +  0vw , 0.9375rem )) {
+    [class*=__container] {
+      padding-right: calc(0.9375rem + 0 * (100vw - 20rem) / 100);
+    }
+}
+}
+
+.webp .wrapper{ background-image: url(../img/Total_background.webp); }
