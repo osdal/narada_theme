@@ -54,6 +54,7 @@ function narada_setup() {
 		array(
 			'frontpage_menu' => esc_html__( 'Frontpage menu', 'narada' ),
 			'footer_menu'=> esc_html__( 'Footer menu', 'narada' ),
+			'page_menu' => esc_html__( 'Page menu', 'narada' ),
 		)
 	);
 
@@ -177,3 +178,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Отладка
+function narada_debug($data) {
+	echo '<pre>'.print_r($data, return: 1).'</pre>';
+}
+
+// Admin functions
+require get_template_directory() . '/inc/admin-functions.php';

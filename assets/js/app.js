@@ -22,6 +22,8 @@
             }));
         }
     }), 0);
+    let paragraphInPage = document.querySelector(".page__content p");
+    paragraphInPage.style.textIndent = 0;
     window["FLS"] = true;
     isWebp();
 })();

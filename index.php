@@ -1,24 +1,24 @@
-<?php get_header(); ?>
+<?php get_header('post'); ?>
 
 <main class="page">
 	<div class="main-content">
 		<div class="logo">
 			<picture>
-				<source srcset="<?php echo get_template_directory_uri() ?> '/assets/img/Logo.webp'" type="image/webp"><img
-					src="<?php echo get_template_directory_uri() ?> '/assets/img/Logo.webp'" alt="logo">
+				<source srcset="<?php echo get_template_directory_uri() ?>'/assets/img/Logo.webp'" type="image/webp">
+				<img src="<?php echo get_template_directory_uri() ?>'/assets/img/Logo.webp'" alt="logo">
 			</picture>
 		</div>
-		<div class="social-icons-block">
-			<div class="social-icons-block__item">
-				<a href="#" class="_icon-instagram-1"></a>
-			</div>
-			<div class="social-icons-block__item">
-				<a href="#" class="_icon-whatsapp-1"></a>
-			</div>
-			<div class="social-icons-block__item">
-				<a href="#" class="_icon-telegram-1"></a>
-			</div>
-		</div>
+		<ul class="social-icons-block">
+			<li class="social-icons-block__item _icon-instagram-1>
+				<a href="#" class=""></a>
+			</li>
+			<li class="social-icons-block__item _icon-whatsapp-1">
+				<a href="#" class=""></a>
+			</li>
+			<li class="social-icons-block__item _icon-telegram-1">
+				<a href="#" class=""></a>
+			</li>
+		</ul>
 
 	 <?php wp_nav_menu(
 			array(
@@ -28,6 +28,7 @@
 				'walker' => new Narada_Menu_Frontpage(),
 			)
     ); ?> 
+	 
 	</div>
 </main>
 <?php get_footer(); ?>

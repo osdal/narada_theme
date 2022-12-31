@@ -9,8 +9,10 @@ function wpspec_menu_desc( $item_output, $item, $depth, $args ) {
 	
 	return $item_output;
 }
+// ------------------------------------------------------------------------------------------
 
 add_filter( 'walker_nav_menu_start_el', 'wpspec_menu_desc', 10, 4 );
+
 
 class Narada_Menu_Frontpage extends Walker_Nav_Menu {
 
@@ -73,6 +75,20 @@ class Narada_Menu_Frontpage extends Walker_Nav_Menu {
 		$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
 	
 		$output .= $indent . '<li' . $id . $class_names . '>';
+
+		// $icons = [
+		// 	'_icon-people',
+		// 	'_icon-projects',
+		// 	'_icon-report-1',
+		// 	'_icon-testimonial-1',
+		// 	'_icon-gallery-1',
+		// 	'_icon-file',
+		// 	'_icon-writing-1',
+		// 	'_icon-gallery-1',
+		// 	'_icon-charity',
+		// 	'_icon-contact'
+		// ];
+
 	
 		$atts           = array();
 		$atts['title']  = ! empty( $menu_item->attr_title ) ? $menu_item->attr_title : '';
@@ -84,8 +100,9 @@ class Narada_Menu_Frontpage extends Walker_Nav_Menu {
 		}
 		$atts['href']         = ! empty( $menu_item->url ) ? $menu_item->url : '';
 		$atts['aria-current'] = $menu_item->current ? 'page' : '';
-		$atts['class']			 = '_icon-people';
-	
+		$atts['class']			 = '';
+
+		
 		/**
 		 * Filters the HTML attributes applied to a menu item's anchor element.
 		 *
