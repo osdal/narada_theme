@@ -1,4 +1,4 @@
-<?php get_header('post'); ?>
+<?php get_header(); ?>
 
 <main class="page">
 	<div class="main-content">

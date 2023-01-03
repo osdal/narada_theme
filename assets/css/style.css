@@ -953,16 +953,30 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   gap: 1.875rem;
 }
 
+.page__article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 400px;
+  grid-template-columns: 1fr 400px;
+  gap: 20px;
+}
+
 .page__titile {
+  display: block;
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: 5px;
+  margin-bottom: 1.25rem;
 }
 
 .page__date-block {
@@ -1011,7 +1025,7 @@ h6 {
 }
 
 .page__sidebar {
-  min-width: 25rem;
+  max-width: 25rem;
   background: #f8f5e6;
   border: 3px solid rgb(144, 37, 22);
   border-radius: 27px;
@@ -1096,7 +1110,7 @@ h6 {
 
 .img-in-page img {
   width: 100%;
-  height: 100%;
+  margin: 0;
 }
 
 .img-in-page .img-in-page-desc {
