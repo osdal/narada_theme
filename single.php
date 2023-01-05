@@ -12,22 +12,22 @@ get_header('post');
 
 <?php the_post(); ?>
 	<div class="wrapper">
-		<main class="page">
+		<main class="page_my">
 				<div class="container">
-					<h1 class="page__titile">
+					<h1 class="page_my__titile">
 						<?php the_title( ); ?>
 					</h1>
-					<div class="page__date-block">
-						<div class="page__date">
+					<div class="page_my__date-block">
+						<div class="page_my__date">
 							<?php echo get_the_date('d-m-Y' ); ?>
 						</div>
-						<div class="page__author">
+						<div class="page_my__author">
 							<span>Автор: </span><?php the_author(); ?>
 						</div>
 					</div>
 						
-					<div class="page__article">
-						<div class="page__content">
+					<div class="page_my__article">
+						<div class="page_my__content">
 							<div class="img-in-page">
 									<?php the_post_thumbnail('full' ); ?>
 
@@ -49,40 +49,40 @@ get_header('post');
 								<?php the_content( ) ?>
 							</article>
 							</div>
-							<section class="page__sidebar">
-								<div class="page__sidebar-widget">
-									<div class="page__sidebar-widget-title">
+							<section class="page_my__sidebar">
+								<div class="page_my__sidebar-widget">
+									<div class="page_my__sidebar-widget-title">
 										<h2>
 											<a href="#">Блог</a>
 										</h2>
-										<div class="page__sidebar-widget-title-entry">
+										<div class="page_my__sidebar-widget-title-entry">
 											<h3>
 												<a href="#">Заголовок статьи</a>
 											</h3>
 										</div>
-										<div class="page__sidebar-widget-content-entry">
+										<div class="page_my__sidebar-widget-content-entry">
 											Краткое описание статьи
 											Велика частина його тексту складається з розділів 1.10.32-3 з Цицерона De finibus bonorum ін
 											malorum ( на кордонах добра і зла ; finibus може alspo
 										</div>
-										<div class="page__sidebar-widget-title-entry">
+										<div class="page_my__sidebar-widget-title-entry">
 											<h3>
 												Заголовок статьи
 											</h3>
 										</div>
-										<div class="page__sidebar-widget-content-entry">
+										<div class="page_my__sidebar-widget-content-entry">
 											Краткое описание статьи
 											Велика частина його тексту складається з розділів 1.10.32-3 з Цицерона De finibus bonorum ін
 											malorum ( на кордонах добра і зла ; finibus може alspo
 										</div>
 									</div>
 								</div>
-								<div class="page__sidebar-widget">
-									<div class="page__sidebar-widget-title">
+								<div class="page_my__sidebar-widget">
+									<div class="page_my__sidebar-widget-title">
 										<h2>
 											Контакти
 										</h2>
-										<div class="page__sidebar-social-icons-block">
+										<div class="page_my__sidebar-social-icons-block">
 											<li class="social-icons-block__item _icon-instagram-1">
 												<a href="#" class=""></a>
 											</li>
@@ -96,10 +96,10 @@ get_header('post');
 												<a href="#" class=""></a>
 											</div>
 										</div>
-										<div class="page__sidebar-widget-phone">
+										<div class="page_my__sidebar-widget-phone">
 											Тел.: +38(050) 333-222-5
 										</div>
-										<div class="page__sidebar-widget-adress">
+										<div class="page_my__sidebar-widget-adress">
 											<p>Адреса:</p>
 											<p>49000, Україна, м. Дніпро, вул. Тітова</p>
 										</div>

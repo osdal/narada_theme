@@ -937,7 +937,7 @@ h6 {
   font-weight: 600;
 }
 
-.page {
+.page_my {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -947,9 +947,10 @@ h6 {
   background: #ffe4bf;
   padding: 1.875rem;
   color: #2c2824;
+  height: 100%;
 }
 
-.page .container {
+.page_my .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -963,7 +964,7 @@ h6 {
   gap: 1.875rem;
 }
 
-.page__article {
+.page_my__article {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 400px;
@@ -971,7 +972,7 @@ h6 {
   gap: 20px;
 }
 
-.page__titile {
+.page_my__titile {
   display: block;
   font-size: 4rem;
   font-weight: 700;
@@ -979,7 +980,7 @@ h6 {
   margin-bottom: 1.25rem;
 }
 
-.page__date-block {
+.page_my__date-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -989,17 +990,17 @@ h6 {
   margin-bottom: 1.25rem;
 }
 
-.page__date {
+.page_my__date {
   font-size: 1.25rem;
   font-weight: 500;
 }
 
-.page__author {
+.page_my__author {
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.page__content {
+.page_my__content {
   font-size: 1.625rem;
   text-align: justify;
   color: #000;
@@ -1007,24 +1008,24 @@ h6 {
   line-height: 1.75rem;
 }
 
-.page__content::first-letter {
+.page_my__content::first-letter {
   color: rgb(144, 37, 22);
   font-size: 50px;
   font-weight: 900;
   font-family: "Pacifico";
 }
 
-.page__content p {
+.page_my__content p {
   margin-bottom: 1.875rem;
 }
 
-.page__bottom-widget {
+.page_my__bottom-widget {
   color: #270006;
   font-weight: 700;
   font-size: larger;
 }
 
-.page__sidebar {
+.page_my__sidebar {
   max-width: 25rem;
   background: #f8f5e6;
   border: 3px solid rgb(144, 37, 22);
@@ -1035,40 +1036,40 @@ h6 {
   height: fit-content;
 }
 
-.page__sidebar-widget {
+.page_my__sidebar-widget {
   background: #fff;
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
 }
 
-.page__sidebar-widget-title h2 {
+.page_my__sidebar-widget-title h2 {
   color: rgb(144, 37, 22);
   font-size: 2.75rem;
   font-weight: 600;
   margin-bottom: 1.25rem;
 }
 
-.page__sidebar-social-icons-block {
+.page_my__sidebar-social-icons-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.page__sidebar-widget-title-entry {
+.page_my__sidebar-widget-title-entry {
   color: #000;
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 0.625rem;
 }
 
-.page__sidebar-widget-content-entry {
+.page_my__sidebar-widget-content-entry {
   color: #000;
   font-size: 1.5rem;
   margin-bottom: 0.625rem;
 }
 
-.page__sidebar-social-icons-block {
+.page_my__sidebar-social-icons-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1078,13 +1079,13 @@ h6 {
   margin-bottom: 1.25rem;
 }
 
-.page__sidebar-widget-phone {
+.page_my__sidebar-widget-phone {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
 }
 
-.page__sidebar-widget-adress {
+.page_my__sidebar-widget-adress {
   font-size: 1.5rem;
   font-weight: 900;
   color: rgb(144, 37, 22);

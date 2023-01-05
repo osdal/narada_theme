@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="page">
+<main class="page_my">
 	<div class="main-content">
 		<div class="logo">
 			<picture>
