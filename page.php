@@ -11,7 +11,7 @@ get_header('post');
 ?>
 
 <?php the_post(); ?>
-	<div class="wrapper">
+	<div class="wrapper_my">
 		<main class="page_my">
 				<div class="container">
 					<h1 class="page_my__titile">
@@ -20,10 +20,10 @@ get_header('post');
 										
 					<div class="page_my__article">
 						<div class="page_my__content">
-							<div class="img-in-page_my">
+							<div class="img-in-page">
 									<?php the_post_thumbnail('full' ); ?>
 
-									<div class="img-in-page_my-desc">
+									<div class="img-in-page-desc">
 										<?php 
 											// Это вывод атрибута alt
 											// $id_thumb = get_post_thumbnail_id();
@@ -42,33 +42,7 @@ get_header('post');
 							</article>
 							</div>
 							<section class="page_my__sidebar">
-								<div class="page_my__sidebar-widget">
-									<div class="page_my__sidebar-widget-title">
-										<h2>
-											<a href="#">Блог</a>
-										</h2>
-										<div class="page_my__sidebar-widget-title-entry">
-											<h3>
-												<a href="#">Заголовок статьи</a>
-											</h3>
-										</div>
-										<div class="page_my__sidebar-widget-content-entry">
-											Краткое описание статьи
-											Велика частина його тексту складається з розділів 1.10.32-3 з Цицерона De finibus bonorum ін
-											malorum ( на кордонах добра і зла ; finibus може alspo
-										</div>
-										<div class="page_my__sidebar-widget-title-entry">
-											<h3>
-												Заголовок статьи
-											</h3>
-										</div>
-										<div class="page_my__sidebar-widget-content-entry">
-											Краткое описание статьи
-											Велика частина його тексту складається з розділів 1.10.32-3 з Цицерона De finibus bonorum ін
-											malorum ( на кордонах добра і зла ; finibus може alspo
-										</div>
-									</div>
-								</div>
+							
 								<div class="page_my__sidebar-widget">
 									<div class="page_my__sidebar-widget-title">
 										<h2>
