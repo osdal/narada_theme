@@ -1118,6 +1118,14 @@ h6 {
   color: rgb(144, 37, 22);
 }
 
+.social-icons-block a::before {
+  font-size: 3.125rem;
+}
+
+.social-icons-block a {
+  font-size: 0;
+}
+
 .social-icons-block__item {
   font-size: 3.125rem;
   color: #270006;

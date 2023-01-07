@@ -55,6 +55,7 @@ function narada_setup() {
 			'frontpage_menu' => esc_html__( 'Frontpage menu', 'narada' ),
 			'footer_menu'=> esc_html__( 'Footer menu', 'narada' ),
 			'page_menu' => esc_html__( 'Page menu', 'narada' ),
+			'contacts_menu' => esc_html__( 'Contacts menu', 'narada' ),
 		)
 	);
 

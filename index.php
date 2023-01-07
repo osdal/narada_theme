@@ -22,6 +22,15 @@
 
 	 <?php wp_nav_menu(
 			array(
+				'theme_location' => 'contacts_menu',
+				'container' => false,
+				'menu_class' => "social-icons-block",
+				// 'walker' => new Narada_Menu_Frontpage(),
+			)
+    ); ?>
+	 
+	 <?php wp_nav_menu(
+			array(
 				'theme_location' => 'frontpage_menu',
 				'container' => false,
 				'menu_class' => "main-menu",
