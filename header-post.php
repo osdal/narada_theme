@@ -16,12 +16,7 @@
 			<div class="header__page brown">
 				<div class="header__page-container">
 					<div class="header__page-logo">
-						<a href="<?php home_url();  ?>">
-							<picture>
-								<source srcset="<?php echo get_template_directory_uri() ?>'/assets/img/Logo.webp'" type="image/webp">
-								<img src="<?php echo get_template_directory_uri() ?>'/assets/img/Logo.webp'" alt="logo">
-							</picture>
-						</a>
+						<?php echo get_custom_logo(); ?>
 					</div>
 					<?php wp_nav_menu(
 							array(

@@ -644,6 +644,11 @@ h6 {
      object-fit: contain;
 }
 
+.header__page-logo img {
+  width: 8.125rem;
+  height: 8.125rem;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -659,6 +664,7 @@ h6 {
   width: 100%;
   background: -o-radial-gradient(50% 50%, 50% 50%, #703201 44.27%, rgba(154, 106, 60, 0.97) 97.4%);
   background: radial-gradient(50% 50% at 50% 50%, #703201 44.27%, rgba(154, 106, 60, 0.97) 97.4%);
+  padding: 10px;
 }
 
 .site-name-block {

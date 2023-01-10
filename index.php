@@ -2,12 +2,24 @@
 
 <main class="page_my">
 	<div class="main-content">
-		<div class="logo">
-			<picture>
-				<source srcset="<?php echo get_template_directory_uri() ?>'/assets/img/Logo.webp'" type="image/webp">
-				<img src="<?php echo get_template_directory_uri() ?>'/assets/img/Logo.webp'" alt="logo">
-			</picture>
-		</div>
+
+			<?php
+				$logo_img = '';
+				if( $custom_logo_id = get_theme_mod('custom_logo') ){
+					$logo_img = wp_get_attachment_image( $custom_logo_id, 'full', false, array(
+						'class'    => 'custom-logo',
+						'itemprop' => 'logo',
+					) );
+				}
+
+				echo $logo_img;
+			?>
+
+		
+		<!-- Вывод лого -->
+		
+
+
 		<ul class="social-icons-block">
 			<li class="social-icons-block__item _icon-instagram-1>
 				<a href="#" class=""></a>
