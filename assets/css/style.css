@@ -806,7 +806,7 @@ h6 {
           align-items: center;
 }
 
-.logo {
+.custom-logo {
   margin-bottom: 10px;
 }
 
@@ -823,8 +823,12 @@ h6 {
 }
 
 .social-icons-block a {
-  font-size: 40px;
-  color: #270006;
+  display: inline-block;
+}
+
+.social-icons-block object {
+  pointer-events: none;
+  height: 150px;
 }
 
 .social-icons-block__item a {
@@ -1124,12 +1128,12 @@ h6 {
   color: rgb(144, 37, 22);
 }
 
-.social-icons-block a::before {
+.social-icons-block li::before {
   font-size: 3.125rem;
 }
 
 .social-icons-block a {
-  font-size: 0;
+  font-size: 0px;
 }
 
 .social-icons-block__item {

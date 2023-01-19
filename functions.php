@@ -186,3 +186,8 @@ function narada_debug($data) {
 
 // Admin functions
 require get_template_directory() . '/inc/admin-functions.php';
+
+## Полное Удаление версии WP
+## Также нужно удалить файл readme.html в корне сайта
+remove_action('wp_head', 'wp_generator'); // из заголовка
+add_filter('the_generator', '__return_empty_string'); // из фидов и URL
