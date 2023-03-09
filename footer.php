@@ -1,13 +1,11 @@
 
 <footer class="footer">
-			<div class="footer__container brown">
-			<?php wp_nav_menu(
-							array(
-								'theme_location' => 'footer_menu',
-								'container' => 'nav',
-								'container_class' => "footer__menu",
-							)
-					); ?> 
+			<div class="footer__container">
+				<div class="social_icons">
+					<img src=<?php echo get_template_directory_uri() . '/assets/img/icons/Instagram_WC.svg'?>>
+					<img src=<?php echo get_template_directory_uri() . '/assets/img/icons/Facebook1.svg'?>>
+					<img src=<?php echo get_template_directory_uri() . '/assets/img/icons/Telegram1.svg'?>>
+				</div>
 			</div>
 </footer>
 	
