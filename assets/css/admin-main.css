@@ -1,6 +1,15 @@
 .wrap {
-	/* background-color: rgb(247, 244, 244); */
+	background-color: rgb(247, 244, 244);
 }
-h1 {
-	color: red;
+
+h1.title {
+	margin-bottom: 50px;
+}
+
+.opt li,
+.opt a {
+	color: rgb(17, 3, 58);
+	font-size: 30px;
+	text-decoration: none;
+	margin: 20px;
 }
