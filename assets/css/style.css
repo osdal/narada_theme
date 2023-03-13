@@ -516,6 +516,12 @@ h6 {
   padding: 0.625rem;
 }
 
+.header__container:last-child {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
 .header__logo-name-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -629,7 +635,6 @@ h6 {
   gap: 15px;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  padding-top: 50px;
 }
 
 .header__lang img {
@@ -703,6 +708,10 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   gap: 3.125rem;
+}
+
+.footer__container .social_icons img {
+  height: 100%;
 }
 
 .page {

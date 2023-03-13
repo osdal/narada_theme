@@ -13,3 +13,8 @@ h1.title {
 	text-decoration: none;
 	margin: 20px;
 }
+
+.description {
+	font-size: 20px;
+	color: #e70d0d;
+}
